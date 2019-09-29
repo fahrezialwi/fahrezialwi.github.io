@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Fahrezi Alwi">
+<meta name="keywords" content="Fahrezi Alwi, Portfolio, Photograph, Videograph, Graphic Design, Coding Project">
+<meta name="description" content="Fahrezi Alwi Portfolio">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fahrezi Alwi - Portfolio</title>
+<link rel="shortcut icon" type="image/png" href="images/faviconblack.png"/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,800" rel="stylesheet"> 
+
+   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/magnific.js"></script>
+</head>
+
+<body>
+	<div class="header">
+
+		<a href="#first" alt="logo"><div class="logo"></div></a>
+		<a href="#first" alt="home" title="home"><div class="home"></div></a>
+		<a href="#second" alt="work" title="my work"><div class="work"></div></a>
+		<a href="#third" alt="about-me" title="about me"><div class="about"></div></a>
+	    
+		<div class="navbar">
+		</div>
+		<a href="#first" alt="logo"><div class="logo-mobile"></div></a>
+		<a href="#first" alt="home" title="home"><div class="home-mobile"></div></a>
+		<a href="#second" alt="work" title="my work"><div class="work-mobile"></div></a>
+		<a href="#third" alt="about-me" title="about me"><div class="about-mobile"></div></a>		
+	</div>
+    
+      <section id="first">
+		<div class="container">
+		<div class="first-title">
+		<div class="title">hi, I'm <b>fahrezi alwi</b></div>
+		<div class="subtitle">I am pleased to introduce you to my work</div>
+		</div>
+		</div>
+	</section>
+      <section id="second" >
+	      <div class="container">       
+			<div class="row">
+				<div class="second-title">my <b>work</b></div>
+				<button class="photograph" alt="photography" title="photography"></button>
+				<button class="videograph" alt="videography" title="videography"></button>
+				<button class="design" alt="graphic design" title="graphic design"></button>
+				<button class="webdesign" alt="coding project" title="coding project"></button>
+			</div>
+		</div>
+	</section>
+	<section id="third">
+		<div class="container">
+			<div class="profile">
+				<div class="third-title">about <b>me</b></div>
+				<div class="profile-picture"></div>
+				<div class="description">
+				I'm an electrical student graduate who is interested in photography and design. I enjoy learning new things and pay attention to detail.<br><br>
+				If you have any feedback or want to talk with me, please contact at
+				<br><br>
+				e-mail : <a class="email" href="mailto:fahrezialwi@gmail.com">fahrezialwi@gmail.com</a>
+				</div>
+				<div class="social-media">
+				<a href="https://www.facebook.com/fahrezi.alwi.m" target="_blank"><div class="facebook"></div></a>
+				<a href="https://www.twitter.com/fahrezialwi" target="_blank"><div class="twitter"></div></a>
+				<a href="https://www.instagram.com/fahrezialwi" target="_blank"><div class="instagram"></div></a>		
+				<a href="https://www.linkedin.com/in/fahrezialwi" target="_blank"><div class="linkedin"></div></a>
+				</div>
+				<div class="copyright">
+				©2017 fahrezialwi
+				</div>
+			</div>
+		</div>
+      </section>
+    
+<script src="js/magnific.js"></script>
+
+<script type="text/javascript">
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+</script>
+          		
+</body>
+</html>

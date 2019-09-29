@@ -1,0 +1,1100 @@
+
+  *{
+      padding:0px;
+      margin: 0px;
+      -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+      }
+ 
+    
+    h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-style: normal;
+    }  
+    
+
+    a{
+        background-color: transparent;
+     }
+     
+  b{
+    font-weight: 700;
+  }
+     
+     body{
+    
+    color: #5d5d5d;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    background-color: #e6e6e6;
+    
+     }
+     
+     
+    .logo{
+    width:50px;
+    max-width: 100%;
+   
+    height: 50px;
+    top:20px;
+    margin-left:3%;
+    position:fixed;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/logo.png");
+    }
+    
+    .logo:hover{
+       background-image: url("../images/logohover.png"); 
+    
+}
+
+     .home{
+        width:30px;
+        height:30px;
+        top:30px;
+        right:30px;
+        position:fixed;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-image: url("../images/home.png");
+     }
+     
+  
+     
+     .home:hover{
+        background-image: url("../images/homehover.png");
+     }
+
+     .work{
+        width:30px;
+        height:30px;
+        top:100px;
+        right:30px;
+        position:fixed;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-image: url("../images/work.png");
+     }
+     
+     .work:hover{
+        background-image: url("../images/workhover.png");
+     }
+     
+     .about{
+        width:30px;
+        height:30px;
+        top:170px;
+        right:30px;
+        position:fixed;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-image: url("../images/about.png");
+     }
+     
+     .about:hover{
+        background-image: url("../images/abouthover.png");
+        }
+       
+
+    
+    .navbar{
+      width:100%;
+      height:50px;
+      
+      background-color: #e6e6e6;
+      
+      position: fixed;
+      top:0;
+      box-shadow: 0 0 30px 0 #505050;
+      display:none;
+    }
+    
+     .logo-mobile{
+    width:30px;
+    max-width: 100%;
+    height:30px;
+    
+    top:10px;
+    left:20px;
+    position:fixed;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/logo.png");
+    display:none;
+    }
+
+    
+     .home-mobile{
+        width:20px;
+        height:20px;
+        top:15px;
+        right:80px;
+        position:fixed;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-image: url("../images/home.png");
+        display:none;
+    }
+    
+    
+     .work-mobile{
+        width:20px;
+        height:20px;
+        top:15px;
+        right:50px;
+        position:fixed;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-image: url("../images/work.png");
+        display:none;
+    }
+    
+
+    .about-mobile{
+        width:20px;
+        height:20px;
+        top:15px;
+        right:20px;
+        position:fixed;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-image: url("../images/about.png");
+        display:none;
+    }
+      
+
+    .container{
+      width:80%;
+      height:100%;
+      background-color : transparent;
+      margin: 0 auto 0 auto;
+    }
+      
+      #first {
+    /* Set a specific height */
+    height: 410px;
+      background-color : transparent;
+
+      float: left;
+      width:100%
+    }
+    	
+
+      
+   
+	  .first-title{
+      width:100%;
+      min-width: 200px;
+      height:275px;
+      margin-top: 300px;
+      font-family: "Quicksand", sans-serif;
+    
+      
+    }
+      
+    .title{
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1.1;
+    
+    }
+    
+    .subtitle{
+    
+    font-size: 20px;
+ 
+    padding-left:3px;
+    font-size: 19px;
+   line-height: 1.2;
+    padding-top:5px;
+    
+    }
+      
+    
+
+    
+   #second{
+      width: 100%;
+      height: 620px;
+    background-color : transparent;
+    float: left;
+    
+    }
+    
+    .row{
+        width:100%;
+        height:200px;
+        
+        margin-top:250px;
+        
+        
+    }
+     .second-title{
+
+    padding-left:3px;
+    font-size: 23px;
+    margin-bottom:15px;
+    font-family: "Quicksand", sans-serif;
+   
+     }
+     
+
+          .photograph{
+        width:23%;
+        height:150px;
+        float:left;
+        margin-right:15px;
+        border:none;
+        cursor:pointer;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/photo.png");
+     }
+     
+     .photograph:hover{
+        background-image: url("../images/photohover.png");
+     }
+     
+     .videograph{
+        width:23%;
+        height:150px;
+        float:left;
+        margin-right:15px;
+        border:none;
+        cursor:pointer;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/video.png");
+     }
+     
+     .videograph:hover{
+        background-image: url("../images/videohover.png");
+     }
+   
+     .design{
+        width:23%;
+        height:150px;
+        float:left;
+        margin-right:15px;
+        border:none;
+        cursor:pointer;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/design.png");
+     }
+     
+     .design:hover{
+        background-image: url("../images/designhover.png");
+     }
+     .webdesign{
+        width:23%;
+        height:150px;
+        float:left;
+        border:none;
+        cursor:pointer;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/webdesign.png");
+     }
+     
+     .webdesign:hover{
+        background-image: url("../images/webdesignhover.png");
+     }
+   
+   
+   
+
+   
+    #third{
+      width: 100%;
+      height: 520px;
+      background-color : transparent;
+     float: left;
+    }
+        .profile{
+        width:100%;
+        height:520px;
+        
+        margin-top:100px;
+        
+        
+    }
+     .third-title{
+    padding-left:3px;
+    font-size: 23px;
+    margin-bottom:15px;
+    font-family: "Quicksand", sans-serif;
+   }
+
+	.profile-picture{
+    width:300px;
+      height:300px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("../images/pp.png");
+      float:left;
+   }
+   
+   	.description{
+      width: 50%;
+      height:200px;
+      background-color: transparent;
+      float:left;
+      margin-left:50px;
+      margin-top:40px;
+      font-family: 'Quicksand', sans-serif;
+     font-weight: 300;
+     
+      font-size: 22px;
+      
+
+   }
+   
+   
+   .email{
+    text-decoration: none;
+    color:#5d5d5d;
+   }
+   
+    .email:hover{
+    text-decoration: underline;
+   }
+   
+   .social-media{
+     margin-top:350px;
+     margin-left:30px;
+     width: 300px;
+     height:50px;
+   }
+   .facebook{
+   
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/facebook.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+      .facebook:hover{
+    
+    width:50px;
+    height:50px;
+    background-image: url("../images/facebookhover.png");
+   }
+   
+      .twitter{
+    
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/twitter.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+      .twitter:hover{
+    
+    width:50px;
+    height:50px;
+    background-image: url("../images/twitterhover.png");
+   }
+   
+      .instagram{
+    
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/instagram.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+      .instagram:hover{
+    
+    width:50px;
+    height:50px;
+    background-image: url("../images/instagramhover.png");
+   }
+   
+      .linkedin{
+    
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/linkedin.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+      .linkedin:hover{
+    
+    width:50px;
+    height:50px;
+    background-image: url("../images/linkedinhover.png");
+   }
+   
+   
+
+   .copyright{
+     font-family: 'Quicksand', sans-serif;
+      font-size: 15px;
+      margin-top:50px;
+    float:right;
+   }
+   
+   
+     
+      
+    
+    /*===Tablet Style===*/
+    /*==================*/
+    @media only screen and (min-width: 481px) and (max-width: 900px){
+         *:focus {
+    outline: none;
+}
+      
+   .logo{
+
+
+    width:40px;
+   
+    height:40px;
+    margin-left: 20px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/logo.png");
+}
+
+.logo:hover{
+   background-image: url("../images/logo.png");
+}
+
+        
+       
+     .home{
+        width:30px;
+        height:30px;
+        top:30px;
+        right:20px;
+        position:fixed;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-image: url("../images/home.png");
+     }
+     
+     .home:hover{
+    background-image: url("../images/home.png");
+     }
+     
+     
+   
+
+     .work{
+        width:30px;
+        height:30px;
+        top:85px;
+        right:20px;
+        position:fixed;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-image: url("../images/work.png");
+     }
+     
+    
+     .work:hover{
+    background-image: url("../images/work.png");
+     }
+     
+     .about{
+        width:30px;
+        height:30px;
+        top:140px;
+        right:20px;
+        position:fixed;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-image: url("../images/about.png");
+     }
+     
+    .about:hover{
+    background-image: url("../images/about.png");
+     }
+ 
+    .container{
+      width:70%;
+      height:100%;
+      background-color : transparent;
+      margin: 0 auto 0 auto;
+      
+      }
+      #first {
+        width: 100%;
+        height:400px;
+        float: left;
+      }
+      
+      .first-title{
+      width:100%;
+      min-width: 200px;
+      height:200px;
+      margin-top: 280px;
+      font-family: "Quicksand", sans-serif;
+          }
+          
+      .title{
+        width:90%;
+    float:left;
+    font-size: 50px;
+    
+    line-height: 1;
+    
+    }
+    
+    .subtitle{
+    width:85%;
+    float:left;
+    font-size: 18px;
+   line-height: 1.2;
+    padding-top:10px;
+    
+    }
+      #second{
+        width: 100%;
+        height:600px;
+        float: left;
+      }
+      
+      
+          .row{
+        width:100%;
+        height:200px;
+        
+        margin-top:150px;}
+      
+      .photograph{
+        width:46%;
+       
+        float:left;
+        margin-right:10px;
+        margin-bottom:10px;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/photo.png");
+     }
+     
+     .photograph:hover{
+        background-image: url("../images/photo.png");
+     }
+     
+     
+     .videograph{
+        width:46%;
+        
+        float:left;
+        margin-right:10px;
+        margin-bottom:10px;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/video.png");
+     }
+     .videograph:hover{
+        background-image: url("../images/video.png");
+     }
+     
+     
+     .design{
+        width:46%;
+        
+        float:left;
+        margin-right:10px;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/design.png");
+     }
+     
+     .design:hover{
+        background-image: url("../images/design.png");
+     }
+     
+     .webdesign{
+        width:46%;
+        
+        float:left;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/webdesign.png");
+     }
+     
+     .webdesign:hover{
+        background-image: url("../images/webdesign.png");
+     }
+     
+   
+   
+       #third{
+      width: 100%;
+      height: 450px;
+      background-color : transparent;
+     float: left;
+    }
+        .profile{
+        width:100%;
+        height:500px;
+        
+        margin-top:100px;
+        
+        
+    }
+
+
+	.profile-picture{
+      width:300px;
+      height:300px;
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("../images/pp.png");
+      margin: 0 auto 0 auto;
+      float:none;
+   }
+   
+   	.description{
+      width: 100%;
+      height:200px;
+      background-color: transparent;
+      float:none;
+      margin: 50px auto 0 auto;
+     
+      font-size: 21px;
+      
+
+   }
+   
+   
+   .email{
+    text-decoration: none;
+    color:#5d5d5d;
+   }
+   
+    .email:hover{
+    text-decoration: none;
+    color:#5d5d5d;
+   }
+   
+   
+   
+    .email:hover{
+    text-decoration: underline;
+   }
+   
+   .social-media{
+     margin:60px auto 0 auto;
+     width: 240px;
+     height:50px;
+   }
+   .facebook{
+   
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/facebook.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+    .facebook:hover{
+     background-image: url("../images/facebook.png");   
+     }
+      
+   
+      .twitter{
+    
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/twitter.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+    .twitter:hover{
+     background-image: url("../images/twitter.png");   
+     }
+
+      .instagram{
+    
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/instagram.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+    .instagram:hover{
+     background-image: url("../images/instagram.png");   
+     }
+     
+      .linkedin{
+    
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/linkedin.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+    .linkedin:hover{
+     background-image: url("../images/linkedin.png");   
+     }
+
+   .copyright{
+  
+      font-size: 15px;
+      margin: 30px ;
+     
+    float:none;
+    text-align: center;
+   }
+
+        
+    }
+    
+    /*===Smartphone Style===*/
+    /*======================*/
+    @media only screen and (max-width: 480px){
+      
+         *:focus {
+    outline: none;
+}
+      
+      
+    .logo{
+display:none;
+    }
+    
+    .logo:hover{
+display:none;
+    }
+         
+          
+       .home{
+        display:none;
+     }
+     
+     .home:hover{
+        display:none;
+     }
+
+     .work{
+        display:none;
+     }
+     
+     .work:hover{
+        display:none;
+     }
+     
+     .about{
+        display:none;
+     }
+     
+     .about:hover{
+        display:none;
+        }
+        
+    
+            
+        
+        
+
+    
+    .navbar{
+     display:inline;
+    }
+    
+    
+    .logo-mobile{
+    display:inline;
+    }
+    
+    .home-mobile{
+        display:inline;
+    }
+    .work-mobile{
+        display:inline;
+    }
+    .about-mobile{
+        display:inline
+    }
+    
+      
+    .container{
+      width:80%;
+      height:100%;
+      background-color : transparent;
+      margin: 0 auto 0 auto;
+      
+      
+      }
+      #first {
+        width: 100%;
+        float: left;
+        height:470px;
+      }
+      
+      .first-title{
+      width:100%;
+      min-width: 200px;
+      height:200px;
+      margin-top: 260px;
+      }
+      
+      .title{
+        width:90%;
+    float:left;
+    font-size: 45px;
+    
+    line-height: 1;
+    
+    }
+    
+    .subtitle{
+    width:85%;
+    float:left;
+    font-size: 16px;
+    
+    line-height: 1.2;
+    padding-top:15px;
+    }
+      #second{
+        width: 100%;
+        height:860px;
+        float: left;
+      }
+      
+    .second-title{
+        font-size: 21px;
+    }
+        .row{
+        width:100%;
+        height:500px;
+        
+        margin-top:100px;}
+      
+      .photograph{
+        width:95%;
+       
+        float:left;
+        margin-right:10px;
+        margin-bottom:10px;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/photo.png");
+     }
+     
+     .photograph:hover{
+        background-image: url("../images/photo.png");
+     }
+     
+     .videograph{
+        width:95%;
+        
+        float:left;
+        margin-right:10px;
+        margin-bottom:10px;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/video.png");
+     }
+     
+     .videograph:hover{
+        background-image: url("../images/video.png");
+     }
+    
+   
+     .design{
+        width:95%;
+        
+        float:left;
+        margin-right:10px;
+        margin-bottom:10px;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/design.png");
+     }
+     
+     .design:hover{
+     background-image: url("../images/design.png");   
+     }
+     
+     .webdesign{
+        width:95%;
+        
+        float:left;
+        background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/webdesign.png");
+     }
+     
+     .webdesign:hover{
+        background-image: url("../images/webdesign.png");
+     }
+     
+     
+   
+           #third{
+      width: 100%;
+      height: 450px;
+      background-color : transparent;
+     float: left;
+    }
+    
+    .third-title{
+        font-size: 21px;
+    }
+        .profile{
+        width:100%;
+        height:500px;
+        
+        margin-top:80px;
+        
+        
+    }
+
+
+	.profile-picture{
+       
+      width:250px;
+      height:250px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("../images/pp.png");
+      margin: 0 auto 0 auto;
+      float:none;
+   }
+   
+   	.description{
+      width: 100%;
+      height:200px;
+      background-color: transparent;
+      float:none;
+      margin: 50px auto 0 auto;
+    
+      font-size: 20px;
+      
+
+   }
+   
+   
+   .email{
+    text-decoration: none;
+    color:#5d5d5d;
+   }
+   
+   .email:hover{
+    text-decoration: none;
+    color:#5d5d5d;
+   }
+   
+    
+   
+   .social-media{
+     margin:100px auto 0 auto;
+     width: 240px;
+     height:50px;
+     
+   }
+   .facebook{
+   
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/facebook.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+      .facebook:hover{
+         background-image: url("../images/facebook.png");
+         }
+        
+   
+      .twitter{
+    
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/twitter.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+   .twitter:hover{
+    background-image: url("../images/twitter.png");
+    }
+    
+
+      .instagram{
+    
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/instagram.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+   .instagram:hover{
+    background-image: url("../images/instagram.png");
+   }
+   
+      .linkedin{
+    
+    width:50px;
+    height:50px;
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("../images/linkedin.png");
+    float:left;
+    margin-right:10px;
+   }
+   
+   .linkedin:hover{
+    background-image: url("../images/linkedin.png");
+   }
+
+   .copyright{
+   
+      font-size: 15px;
+      margin-top: 30px ;
+      margin-bottom:30px;
+    float:none;
+    text-align: center;
+   }
+    }
+     
